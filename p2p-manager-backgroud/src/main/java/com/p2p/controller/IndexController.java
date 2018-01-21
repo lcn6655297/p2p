@@ -11,6 +11,7 @@ public class IndexController {
 
     @RequestMapping("/")
     public String showIndex(){
+        //bug修复啊
               return  "Hello World!";
     }
 }
